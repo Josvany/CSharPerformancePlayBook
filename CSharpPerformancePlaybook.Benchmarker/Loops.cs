@@ -17,7 +17,7 @@ namespace CSharpPerformancePlaybook.Benchmarker
                 return Resourses.Resource1._1000firstnames.Split('\n').ToList();
             }
         }
-
+         
         [Benchmark]
         public void ForLoop()
         {
